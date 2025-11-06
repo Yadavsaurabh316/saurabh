@@ -1,0 +1,70 @@
+body {
+  background-color: #E6FFF5;
+  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #00BFFF, #87CEFA);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* Features Section */
+.features {
+  background-color: #F3EFFF;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+}
+
+/* How It Works */
+.how-it-works {
+  background-color: #FFFFFF;
+  padding: 40px 20px;
+}
+
+/* Pricing Section */
+.pricing {
+  background-color: #FFF9D6;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Testimonials */
+.testimonials {
+  background-color: #F0FFF0;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #004D40;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.book-now-btn {
+  display: inline-block;
+  background-color: #00BFA6; /* Fresh aqua tone */
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.book-now-btn:hover {
+  background-color: #009e8c;
+  transform: scale(1.05);
+}
